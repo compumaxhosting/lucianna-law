@@ -10,8 +10,8 @@ export const metadata = {
   openGraph: {
     title: "Top-Rated Attorneys Serving Fort Lee, New Jersey & New York",
     description:
-      "Reliable legal representation in Fort Lee, NJ, and New York with top-rated attorneys in criminal defense, personal injury, police misconduct, and more.",
-    url: "https://www.luciannalaw.com/",
+      "Top-rated attorneys serving Fort Lee, New Jersey, and surrounding areas at Lucianna Law Firm. Our experienced legal team provides expert counsel in various practice areas, including criminal defense, personal injury, Police Misconduct Attorney, and more. Contact us today for reliable legal representation tailored to your needs.",
+    url: "https://www.luciannalaw.com/areas-of-practice.html",
     images: [
       {
         url: "https://www.luciannalaw.com/cover-image.jpg",

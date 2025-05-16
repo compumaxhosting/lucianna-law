@@ -2,16 +2,16 @@ import { ReactNode } from "react";
 
 // Metadata for SEO
 export const metadata = {
-  title: "Expert Legal Specialties in Fort Lee, New Jersey and New York",
+  title: "Trusted Discrimination Lawyers Serving New Jersey & New York",
   description:
-    "Explore our legal specialties at Nancy E. Lucianna Law Firm, serving Fort Lee, NJ, with over 38 years of experience in criminal defense, personal injury, workplace discrimination, workers’ compensation, and police misconduct cases across New Jersey and New York.",
+    "Explore workplace discrimination laws with Lucianna Law Firm. Our experienced attorneys in Fort Lee, New Jersey, New York, and the US Virgin Islands specialize in protecting employees' rights against discrimination based on race, color, sex, religion, and more. Contact us for legal advice and representation.",
   keywords:
-    "legal specialties Fort Lee NJ, criminal defense attorney, personal injury lawyer, workplace discrimination, workers’ compensation, police misconduct attorney, New Jersey legal services, New York law firm, United States Virgin Islands legal counsel",
+    "workplace discrimination lawyer, employment discrimination attorney, discrimination law firm, New Jersey discrimination lawyer, New York employment law attorney, US Virgin Islands legal counsel, Palisades Park NJ, Edgewater NJ, Cliffside Park NJ, Ridgefield NJ, Ridgefield Park NJ, Englewood NJ, Fairview NJ, Teaneck NJ, Little Ferry NJ, North Bergen NJ, Guttenberg NJ, Hackensack NJ, West New York NJ, Tenafly NJ, Bergenfield NJ",
   openGraph: {
-    title: "Expert Legal Specialties in Fort Lee, New Jersey and New York",
+    title: "Trusted Discrimination Lawyers Serving New Jersey & New York",
     description:
       "Nancy E. Lucianna Law Firm offers expert legal services in criminal defense, personal injury, workplace discrimination, workers’ compensation, and police misconduct cases in New Jersey and New York.",
-    url: "https://www.luciannalaw.com/",
+    url: "https://www.luciannalaw.com/work-place-discrimination.html",
     images: [
       {
         url: "https://www.luciannalaw.com/cover-image.jpg",

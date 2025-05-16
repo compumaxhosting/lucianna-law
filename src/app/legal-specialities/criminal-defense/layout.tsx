@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Top-Rated Criminal Defense Lawyer in Fort Lee, NJ | New York",
     description:
-      "Nancy E. Lucianna Law Firm offers expert criminal defense for various charges, including sex crimes, drug offenses, theft, white-collar crimes, and juvenile offenses in New Jersey and New York.",
+      "Facing criminal charges in Fort Lee? With 38 years of experience in New Jersey, the Law Offices of Nancy E. Lucianna is here to protect your rights. Our dedicated team handles a range of crimes including sex crimes, drug offenses, theft, white-collar crimes, and juvenile offenses. Contact us today for a free consultation by appointment only.",
     url: "https://www.luciannalaw.com/criminal-defense-attorneys-NJ-NY.html",
     images: [
       {
