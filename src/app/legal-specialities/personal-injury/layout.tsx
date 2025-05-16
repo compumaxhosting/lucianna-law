@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Fort Lee, NJ's Leading Personal Injury Attorneys | Lawyers NYC",
     description:
-      "Lucianna Law Firm offers expert legal counsel for personal injury cases including medical malpractice, automobile accidents, nursing home abuse, and slip and falls in New Jersey and the US Virgin Islands.",
+      "Expert legal counsel for personal injuries in New Jersey at Lucianna Law Firm. Our attorneys in Fort Lee and the US Virgin Islands specialize in cases involving medical malpractice, automobile accidents, nursing home abuse, and slip and falls. We navigate New Jersey's legal complexities, ensuring timely filing and strategic representation. Contact us to negotiate settlements or advocate on your behalf in trial.",
     url: "https://www.luciannalaw.com/personal-injury-or-wrongful-death.html",
     images: [
       {

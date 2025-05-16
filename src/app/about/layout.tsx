@@ -12,8 +12,8 @@ export const metadata = {
     title:
       "Experienced Criminal Defense & Personal Injury Attorney in Fort Lee, NJ",
     description:
-      "Reliable legal representation in Fort Lee and nearby areas. Specializing in injury, compensation, and criminal defense.",
-    url: "https://www.yourlawfirmdomain.com/",
+      "Looking for a reliable criminal defense or personal injury attorney in Fort Lee, NJ? Our firm specializes in workplace injury, workers’ compensation, and police misconduct cases in Edgewater, Palisades Park, and beyond. Contact us today!",
+    url: "https://www.luciannalaw.com/about.html",
     images: [
       {
         url: "https://www.yourlawfirmdomain.com/cover-image.jpg",

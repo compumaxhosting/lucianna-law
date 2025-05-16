@@ -14,6 +14,7 @@ import AttorneySection from "@/components/attorney-section/AttorneySection";
 import MapComponent from "@/components/MapComponent";
 import FooterMain from "@/components/footer/Footer";
 import BackToTop from "@/components/extras/BackToTop";
+import ContactBar from "@/components/ContactBar";
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
       <MapComponent />
       <BackToTop />
       <FooterMain />
-      
+      <ContactBar />
     </>
   );
 }

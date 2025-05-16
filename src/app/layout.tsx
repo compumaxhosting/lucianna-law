@@ -20,12 +20,15 @@ const marcellus = Marcellus({
 });
 
 export const metadata: Metadata = {
-  title: "Fort Lee Criminal Defense & Personal Injury Attorneys | luciannalaw.com",
-  description: "Explore expert legal services in Criminal Defense Attorneys , Personal Injury, Workplace Discrimination, and Workers' Compensation at The Law Offices of Nancy E. Lucianna. Serving clients across New Jersey, New York, and the United States Virgin Islands.",
+  title:
+    "Fort Lee Criminal Defense & Personal Injury Attorneys | luciannalaw.com",
+  description:
+    "Explore expert legal services in Criminal Defense Attorneys , Personal Injury, Workplace Discrimination, and Workers' Compensation at The Law Offices of Nancy E. Lucianna. Serving clients across New Jersey, New York, and the United States Virgin Islands.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "Criminal Defense Attorneys, Personal Injury Attorneys, Workplace Discrimination Lawyers, Workers' Compensation Lawyers, New Jersey Criminal Defense Lawyers, New York Personal Injury Attorneys, United States Virgin Islands Employment Lawyers, Workplace Harassment Attorneys, Employee Rights Lawyers, Legal Representation for Injured Workers",
   openGraph: {
-    title: "Fort Lee Criminal Defense & Personal Injury Attorneys | luciannalaw.com",
+    title:
+      "Fort Lee Criminal Defense & Personal Injury Attorneys | luciannalaw.com",
     description:
       "Explore expert legal services in Criminal Defense Attorneys , Personal Injury, Workplace Discrimination, and Workers' Compensation at The Law Offices of Nancy E. Lucianna. Serving clients across New Jersey, New York, and the United States Virgin Islands.",
     url: "https://www.luciannalaw.com/",
@@ -44,32 +47,32 @@ export const metadata: Metadata = {
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Law Offices of NANCY E. LUCIANNA",
-  "url": "https://www.luciannalaw.com/",
-  "logo": "https://www.luciannalaw.com/logo.png",
-  "image": "https://www.luciannalaw.com/hero-image.png",
-  "description": "Infinity Construction NYC specializes in home improvements and remodeling in New York.",
-  "address": {
+  name: "Law Offices of NANCY E. LUCIANNA",
+  url: "https://www.luciannalaw.com/",
+  logo: "https://www.luciannalaw.com/logo.png",
+  image: "https://www.luciannalaw.com/hero-image.png",
+  description: "A Law Firm With Experience And A Winning Attitude",
+  address: {
     "@type": "PostalAddress",
-    "streetAddress": " 1809 Albany Ave ",
-    "addressLocality": " Brooklyn ",
-    "addressRegion": "NY",
-    "postalCode": " 11210 ",
-    "addressCountry": "US",
+    streetAddress: "123 Main St",
+    addressLocality: "Fort Lee",
+    addressRegion: "NJ",
+    postalCode: "07024",
+    addressCountry: "US",
   },
-  "telephone": "+1- 347 939 5779",
-  "openingHoursWeekdays": "Monday to friday 07:00- 22:00",
-  "openingHoursWeekends": "saturday-sunday 07:00- 12=7:00",
+  telephone: "+1-201-555-1234",
+  openingHoursWeekdays: "Monday to friday 07:00- 22:00",
+  openingHoursWeekends: "saturday-sunday 07:00- 12=7:00",
 
-  "sameAs": [
-    "https://www.facebook.com/infinityconstructionnyc",
-    "https://www.instagram.com/infinityconstructionnyc",
-    "https://www.linkedin.com/company/infinityconstructionnyc",
+  sameAs: [
+    "https://www.facebook.com/luciannalaw",
+    "https://www.instagram.com",
+    "https://www.linkedin.com/in/luciannalaw/",
   ],
-  "geo": {
+  geo: {
     "@type": "GeoCoordinates",
-    "latitude": "40.7128", // replace with actual latitude
-    "longitude": "-74.0060", // replace with actual longitude
+    latitude: "40.7128", // replace with actual latitude
+    longitude: "-74.0060", // replace with actual longitude
   },
 };
 
