@@ -59,7 +59,7 @@ const AboutSection = () => {
           />
           <Link
             href="/service-overview"
-            className="underline text-2xl"
+            className="text-2xl"
             aria-label="Service Overview"
           >
             Service Overview
