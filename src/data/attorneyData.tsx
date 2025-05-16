@@ -6,6 +6,18 @@ export const attorneyData = [
     imgPath: "/attorney-member1.jpg",
     number: "201-947-6484",
     email: "Nlucianna@msn.com",
+    title: "Nancy E. Lucianna",
+    description:
+      "Learn more about Nancy E. Lucianna, a seasoned criminal and civil rights attorney in New Jersey with over 38 years of experience.",
+    keywords: [
+      "Nancy Lucianna",
+      "New Jersey criminal lawyer",
+      "civil rights attorney",
+      "Fort Lee attorney",
+      "Bergen County lawyer",
+      "NJ trial lawyer",
+      "personal injury attorney",
+    ],
     mainContent: (
       <span>
         NANCY E. LUCIANNA is a proud second-generation trial attorney. She
@@ -194,6 +206,18 @@ export const attorneyData = [
     imgPath: "/attorney-member2.jpg",
     number: "201-947-6484",
     email: "Nlucianna@msn.com",
+    title: "Paul Darakjian",
+    description:
+      "Learn more about Nancy E. Lucianna, a seasoned criminal and civil rights attorney in New Jersey with over 38 years of experience.",
+    keywords: [
+      "Paul Darakjian",
+      "New Jersey criminal lawyer",
+      "civil rights attorney",
+      "Fort Lee attorney",
+      "Bergen County lawyer",
+      "NJ trial lawyer",
+      "personal injury attorney",
+    ],
     mainContent: (
       <span>
         Mr. Darakjian joined the Law Office of NANCY E. LUCIANNA, P.C. in 2016
