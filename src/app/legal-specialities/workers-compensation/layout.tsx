@@ -5,14 +5,14 @@ export const metadata = {
   title:
     "Experienced Workers' Compensation Attorney in Fort Lee, NJ & New York",
   description:
-    "Workers' compensation legal services at the Law Offices of Nancy E. Lucianna. Serving New Jersey, New York, and the US Virgin Islands, our attorneys specialize in protecting employees' rights to compensation for work-related injuries. Contact us for skilled legal representation.",
+    "workers' compensation legal services at the Law Offices of Nancy E. Lucianna. Serving New Jersey, New York, and the US Virgin Islands, our attorneys specialize in protecting employees' rights to compensation for work-related injuries. Contact us for skilled legal representation",
   keywords:
     "workers' compensation attorney, workplace injury lawyer, New Jersey workers' comp attorney, New York compensation claims, US Virgin Islands legal services, Nancy E. Lucianna law firm, Palisades Park NJ, Edgewater NJ, Cliffside Park NJ, Ridgefield NJ, Ridgefield Park NJ, Englewood NJ, Fairview NJ, Teaneck NJ, Little Ferry NJ, North Bergen NJ, Guttenberg NJ, Hackensack NJ, West New York NJ, Tenafly NJ, Bergenfield NJ",
   openGraph: {
     title:
       "Experienced Workers' Compensation Attorney in Fort Lee, NJ & New York",
     description:
-      "Protecting employees' rights to compensation for workplace injuries in New Jersey, New York, and the US Virgin Islands.",
+      "workers' compensation legal services at the Law Offices of Nancy E. Lucianna. Serving New Jersey, New York, and the US Virgin Islands, our attorneys specialize in protecting employees' rights to compensation for work-related injuries. Contact us for skilled legal representation",
     url: "https://www.luciannalaw.com/workers-compensation.html",
     images: [
       {

@@ -1,5 +1,6 @@
 "use client";
 
+import ContactBar from "@/components/ContactBar";
 import BackToTop from "@/components/extras/BackToTop";
 import SectionHeading from "@/components/extras/SectionHeading";
 import Footer from "@/components/footer/Footer";
@@ -29,6 +30,7 @@ export default function Page() {
       </div>
       <BackToTop />
       <Footer />
+      <ContactBar />
     </div>
   );
 }

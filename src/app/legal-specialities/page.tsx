@@ -1,3 +1,4 @@
+import ContactBar from "@/components/ContactBar";
 import BackToTop from "@/components/extras/BackToTop";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
@@ -13,6 +14,7 @@ const page = () => {
       <LegalSpecialities />
       <BackToTop />
       <Footer />
+      <ContactBar />
     </div>
   );
 };

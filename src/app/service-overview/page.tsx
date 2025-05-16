@@ -1,3 +1,4 @@
+import ContactBar from "@/components/ContactBar";
 import BackToTop from "@/components/extras/BackToTop";
 import ServiceOverviewSection from "@/components/extras/ServiceOverviewSection";
 import WeServeIn from "@/components/extras/WeServeIn";
@@ -17,6 +18,7 @@ const page = () => {
       </div>
       <BackToTop />
       <Footer />
+      <ContactBar />
     </div>
   );
 };

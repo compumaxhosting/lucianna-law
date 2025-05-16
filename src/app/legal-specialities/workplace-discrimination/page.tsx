@@ -1,3 +1,4 @@
+import ContactBar from "@/components/ContactBar";
 import BackToTop from "@/components/extras/BackToTop";
 import SectionHeading from "@/components/extras/SectionHeading";
 import Footer from "@/components/footer/Footer";
@@ -34,6 +35,7 @@ const page = () => {
       </div>
       <BackToTop />
       <Footer />
+      <ContactBar />
     </div>
   );
 };

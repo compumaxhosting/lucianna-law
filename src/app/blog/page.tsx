@@ -6,6 +6,7 @@ import HeaderTop from "@/components/header/HeaderTop";
 import Link from "next/link";
 import React from "react";
 import { blogData } from "@/data/blogData";
+import ContactBar from "@/components/ContactBar";
 
 const page = () => {
   return (
@@ -28,6 +29,7 @@ const page = () => {
       </div>
       <BackToTop />
       <Footer />
+      <ContactBar />
     </div>
   );
 };

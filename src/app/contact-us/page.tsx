@@ -1,4 +1,5 @@
 import ContactSection from '@/components/contact-section/ContactSection'
+import ContactBar from '@/components/ContactBar'
 import BackToTop from '@/components/extras/BackToTop'
 import Footer from '@/components/footer/Footer'
 import Header from '@/components/header/Header'
@@ -15,6 +16,7 @@ const page = () => {
       </div>
       <BackToTop />
       <Footer />
+      <ContactBar />
     </div>
   );
 }

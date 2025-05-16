@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Contact Lucianna Law | Top Criminal Defense Attorney Near Me",
     description:
-      "Get expert legal representation for criminal defense matters at Lucianna Law. Serving you with over 38 years of experience.",
+      "Get in touch with the Law Offices of Nancy E. Lucianna, a trusted criminal defense attorney with 38+ years of experience. Whether you need assistance with juvenile cases, white-collar crimes, or personal matters, we offer skilled and affordable legal representation. Contact us today to protect your rights and future.",
     url: "https://www.luciannalaw.com/contact.html",
     images: [
       {

@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Trusted Discrimination Lawyers Serving New Jersey & New York",
     description:
-      "Protecting employees' rights against workplace discrimination in New Jersey, New York, and the US Virgin Islands.",
+      "Explore workplace discrimination laws with Lucianna Law Firm. Our experienced attorneys in Fort Lee, New Jersey, New York, and the US Virgin Islands specialize in protecting employees' rights against discrimination based on race, color, sex, religion, and more. Contact us for legal advice and representation.",
     url: "https://www.luciannalaw.com/work-place-discrimination.html",
     images: [
       {

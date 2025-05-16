@@ -12,7 +12,7 @@ export const metadata = {
     title:
       "Police Misconduct Attorney in Fort Lee, NJ & New York | Lucianna Law Firm",
     description:
-      "Lucianna Law Firm specializes in defending civil rights and holding law enforcement accountable for police misconduct and brutality in Fort Lee, NJ, New York, and the US Virgin Islands.",
+      "Lucianna Law Firm offers experienced representation for police misconduct cases in Fort Lee, NJ, and New York. Our attorneys specialize in defending civil rights and holding law enforcement accountable. Contact us for skilled legal advocacy.",
     url: "https://www.luciannalaw.com/police-misconduct-attorneys.html",
     images: [
       {

@@ -1,4 +1,5 @@
 import AreasOfPracticeSection from "@/components/areas-of-practice/AreasOfPracticeSection";
+import ContactBar from "@/components/ContactBar";
 import BackToTop from "@/components/extras/BackToTop";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
@@ -12,6 +13,7 @@ const App = () => {
       <AreasOfPracticeSection />
       <BackToTop />
       <Footer />
+      <ContactBar />
     </div>
   );
 };

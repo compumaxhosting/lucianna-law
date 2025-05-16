@@ -17,6 +17,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { useParams } from "next/navigation";
+import ContactBar from "@/components/ContactBar";
 
 export default function Page() {
   const { slug } = useParams();
@@ -121,6 +122,7 @@ export default function Page() {
       <div className="w-full h-10 bg-mainBlue"></div>
       <BackToTop />
       <Footer />
+      <ContactBar />
     </div>
   );
 }

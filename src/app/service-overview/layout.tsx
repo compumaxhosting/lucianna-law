@@ -12,7 +12,7 @@ export const metadata = {
     title:
       "Best Criminal Defense Attorney Near Me | Serving New Jersey & New York",
     description:
-      "With over 38 years of experience, the Law Offices of Nancy E. Lucianna provides top-notch criminal defense, juvenile law, personal injury, and white-collar crimes legal services in New Jersey & New York.",
+      "Discover the expert legal services offered by the Law Offices of Nancy E. Lucianna. From criminal defense and juvenile law to personal injury and white-collar crimes, our 38+ years of experience ensure skilled and compassionate representation. Learn more about our practice areas today.",
     url: "https://www.luciannalaw.com/",
     images: [
       {

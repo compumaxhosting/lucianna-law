@@ -5,21 +5,21 @@ import Link from "next/link";
 
 const contactItems = [
   {
-    href: "tel:13472216549",
-    label: "Call SAS Roofing",
+    href: "tel:+1-201-555-1234",
+    label: "Call LUCIANNA Law Attorny",
     icon: <Phone size={18} />,
     text: "Phone",
   },
   {
-    href: "https://maps.google.com/?cid=6135882278024640728&entry=gps&g_st=aw",
-    label: "View SAS Roofing location on Google Maps",
+    href: "https://maps.app.goo.gl/B2NyPqgvzjwGav2Y8",
+    label: "View LUCIANNA Law Attorny location on Google Maps",
     icon: <MapPin size={18} />,
     text: "Location",
     external: true,
   },
   {
-    href: "mailto:sascon09@yahoo.com?subject=Inquiry&body=Hi%20SAS%20Team%2C%0A%0AI%20would%20like%20to%20know%20more%20about...",
-    label: "Email SAS Roofing",
+    href: "mailto:Nlucianna@msn.com?subject=Inquiry&body=Hi%20LUCIANNA%20Team%2C%0A%0AI%20would%20like%20to%20know%20more%20about...",
+    label: "Email LUCIANNA Law Attorny",
     icon: <Mail size={18} />,
     text: "Email",
   },
