@@ -60,7 +60,7 @@ const Header = () => {
                 isActive("/about") ? "nav-link_active" : "pt-1"
               }`}
             >
-              
+              About
             </Link>
             <Link
               href="/areas-of-practice"
