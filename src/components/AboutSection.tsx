@@ -68,11 +68,12 @@ const AboutSection = () => {
         <div className="absolute hidden xl:flex right-24 bottom-0">
           <Image
             src="/hammer-img.png"
-            alt="Decorative Image of a Gavel" // Decorative (Image is pure Aesthetics with hammer or under
+            alt="Decorative Image of a Gavel"
             width={380}
-            height={10}
+            height={200} // use real image height matching aspect ratio (or approximate)
+            style={{ height: "auto" }} // important to keep aspect ratio if height changed by CSS
             className="object-cover"
-            aria-hidden="true" /* SKIP or SET hidden TAG If caused flags*/
+            aria-hidden="true"
           />
         </div>
       </div>

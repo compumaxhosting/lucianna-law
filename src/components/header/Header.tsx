@@ -21,12 +21,12 @@ const Header = () => {
           <div className="flex items-center">
             <Link href="/" aria-label="Go to homepage">
               <Image
-                src="/logo.png" // Replace with your actual logo path
+                src="/logo.png"
                 alt="Law Offices of Nancy E. Lucianna"
                 width={270}
                 height={40}
-                objectFit="contain"
                 priority
+                style={{ objectFit: "contain" }} // ✅ Correct modern usage
               />
             </Link>
           </div>

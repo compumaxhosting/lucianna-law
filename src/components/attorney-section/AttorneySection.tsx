@@ -20,10 +20,11 @@ const AttorneySection = () => {
           >
             <div className="aspect-square relative w-full xl:min-w-[240px] h-full rounded-t-2xl xl:rounded-l-2xl xl:rounded-r-none overflow-hidden">
               <Image
-                src={attorney.imgPath} // Replace with actual image path
+                src={attorney.imgPath}
                 alt={attorney.name}
-                layout="fill"
+                fill
                 priority
+                sizes="(min-width: 1280px) 240px, 100vw"
                 className="object-top object-cover"
               />
             </div>

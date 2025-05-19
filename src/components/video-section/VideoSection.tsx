@@ -28,10 +28,10 @@ const VideoSection = () => {
       {/* Background Image */}
       <Image
         src="/bg-video-image.jpg"
-        alt="Background image of a courthouse" // More descriptive alt text for context
-        layout="fill"
-        objectFit="cover"
-        aria-hidden="true" // Background image is decorative, hide from screen readers
+        alt="Background image of a courthouse"
+        fill // ✅ replaces layout="fill"
+        style={{ objectFit: "cover" }} // ✅ replaces objectFit="cover"
+        aria-hidden="true"
       />
 
       {/* Content Overlay */}
