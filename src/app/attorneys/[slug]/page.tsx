@@ -34,8 +34,9 @@ export default function Page() {
       <Header />
       <BreadcrumbSection
         title="Attorney Details"
-        path={`Home / Attorney-${data.id}`}
+        path={`Home / Attorney - ${data.slug}`}
       />
+
       <div className="bg-white py-4 md:py-12">
         <div className="bg-lightBlue/15 max-w-6xl mx-auto">
           <div className="flex flex-col lg:flex-row gap-6 p-6 pb-0">
@@ -115,7 +116,11 @@ export default function Page() {
             </div>
           </div>
           <div className="flex flex-col lg:flex-row gap-6 p-6 pb-0 ">
-            {data.remainingContent}
+            {Array.isArray(data.remainingContent)
+              ? data.remainingContent.map((content, index) => (
+                  <div key={index}>{content}</div> // or better, use a unique ID if available instead of index
+                ))
+              : data.remainingContent}
           </div>
         </div>
       </div>

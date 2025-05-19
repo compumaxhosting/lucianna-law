@@ -15,7 +15,7 @@ const AttorneySection = () => {
         {/* Attorney 1 */}
         {attorneyData.map((attorney) => (
           <div
-            key={attorney.id}
+            key={attorney.slug} // <-- Use slug as the unique key here
             className="flex flex-col xl:flex-row bg-white text-mainBlue rounded-2xl shadow-lg"
           >
             <div className="aspect-square relative w-full xl:min-w-[240px] h-full rounded-t-2xl xl:rounded-l-2xl xl:rounded-r-none overflow-hidden">

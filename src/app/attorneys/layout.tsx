@@ -2,37 +2,40 @@ import { ReactNode } from "react";
 
 // Metadata for SEO
 export const metadata = {
-  title: "Meet Our Experienced Attorneys in New Jersey & New York",
+  title:
+    "Experienced Criminal Defense & Personal Injury Attorney in Fort Lee, NJ",
   description:
-    "Get to know the dedicated attorneys at Lucianna Law Firm. Our team of experienced lawyers in New York, New Jersey specializes in criminal defense, personal injury, family law, and more. Learn about our legal expertise and how we can assist you.",
+    "Looking for a reliable criminal defense or personal injury attorney in Fort Lee, NJ? Our firm specializes in workplace injury, workers’ compensation, and police misconduct cases in Edgewater, Palisades Park, and beyond. Contact us today!",
   keywords:
-    "attorneys Lucianna Law Firm, experienced lawyers New York, legal counsel criminal defense, personal injury attorney, family law firm, immigration lawyer, litigation services, estate planning, real estate law, civil litigation, employment law, contract disputes, intellectual property, trial attorneys, legal advice",
+    "Criminal defense attorney Fort Lee NJ, personal injury attorney Fort Lee NJ, workplace injury attorney Edgewater NJ, workers’ compensation lawyer Palisades Park NJ, police misconduct attorney Cliffside Park NJ, legal services Ridgefield NJ, attorneys Englewood NJ, accident lawyer Fairview NJ, law firm Teaneck NJ, defense attorney Little Ferry NJ, injury attorney North Bergen NJ, litigation Guttenberg NJ, legal advice Hackensack NJ, trial lawyer West New York NJ, court representation Tenafly NJ, Bergenfield NJ attorney",
   openGraph: {
-    title: "Meet Our Experienced Attorneys in New Jersey & New York",
+    title:
+      "Experienced Criminal Defense & Personal Injury Attorney in Fort Lee, NJ",
     description:
-      "Dedicated attorneys serving New Jersey and New York, specializing in criminal defense, personal injury, family law, and more.",
-    url: "https://www.luciannalaw.com/",
+      "Looking for a reliable criminal defense or personal injury attorney in Fort Lee, NJ? Our firm specializes in workplace injury, workers’ compensation, and police misconduct cases in Edgewater, Palisades Park, and beyond. Contact us today!",
+    url: "https://www.luciannalaw.com/about.html",
     images: [
       {
-        url: "https://www.luciannalaw.com/cover-image.jpg",
+        url: "https://www.yourlawfirmdomain.com/cover-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Lucianna Law Firm",
+        alt: "Law Firm in Fort Lee NJ",
       },
     ],
     type: "website",
   },
 };
 
+// Schema Markup
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "Lucianna Law Firm",
+  name: "Your Law Firm Name",
   url: "https://www.luciannalaw.com/",
-  logo: "https://www.luciannalaw.com/logo.png",
-  image: "https://www.luciannalaw.com/office.jpg",
+  logo: "https://www.luciannalaw.com//logo.png",
+  image: "https://www.luciannalaw.com//office.jpg",
   description:
-    "Experienced attorneys in New York and New Jersey, specializing in criminal defense, personal injury, family law, and more.",
+    "Criminal defense and personal injury attorneys serving Fort Lee, NJ and surrounding towns.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "123 Main St",
@@ -42,7 +45,13 @@ const schemaData = {
     addressCountry: "US",
   },
   telephone: "+1-201-555-1234",
-  areaServed: ["New York", "New Jersey"],
+  areaServed: [
+    "Fort Lee",
+    "Edgewater",
+    "Cliffside Park",
+    "Englewood",
+    "Teaneck",
+  ],
   geo: {
     "@type": "GeoCoordinates",
     latitude: "40.8509",
@@ -59,8 +68,44 @@ const schemaData = {
 export default function AboutLayout({ children }: { children: ReactNode }) {
   return (
     <div>
-      {/* Only the content from the About page will be rendered */}
+      {/* No extra content like Header or Footer here */}
       {children}
+
+      {/* Social Icons */}
+      <div className="social-icons">
+        <a
+          href="https://www.facebook.com/luciannalaw"
+          target="_blank"
+          aria-label="Visit our Facebook page"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://x.com/i/flow/login?redirect_after_login=%2Fluciannalaw"
+          target="_blank"
+          aria-label="Follow us on X"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-x"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/luciannalaw/"
+          target="_blank"
+          aria-label="Connect with us on LinkedIn"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          aria-label="Follow us on Instagram"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-instagram"></i>
+        </a>
+      </div>
 
       {/* Structured Data Script */}
       <script

@@ -1,23 +1,16 @@
+/* eslint-disable @typescript-eslint/no-unused-expressions */
 export const attorneyData = [
   {
-    id: 1,
     name: "Nancy E. Lucianna",
     slug: "attorney-1",
+    metaTitle: "Nancy E. Lucianna - Experienced Attorney",
+    metaDescription:
+      "Meet Nancy E. Lucianna, dedicated attorney at Lucianna Law Firm specializing in criminal defense, personal injury...",
+    metaKeywords: "lawyer, criminal defense, personal injury",
     imgPath: "/attorney-member1.jpg",
-    number: "201-947-6484",
-    email: "Nlucianna@msn.com",
-    title: "Nancy E. Lucianna",
-    description:
-      "Learn more about Nancy E. Lucianna, a seasoned criminal and civil rights attorney in New Jersey with over 38 years of experience.",
-    keywords: [
-      "Nancy Lucianna",
-      "New Jersey criminal lawyer",
-      "civil rights attorney",
-      "Fort Lee attorney",
-      "Bergen County lawyer",
-      "NJ trial lawyer",
-      "personal injury attorney",
-    ],
+    number: "201-947-6488", // ✅ Add this (example)
+    email: "nancy@luciannalaw.com", // ✅ Add this (example)
+    // JSX content separately in mainContent and remainingContent
     mainContent: (
       <span>
         NANCY E. LUCIANNA is a proud second-generation trial attorney. She
@@ -199,31 +192,25 @@ export const attorneyData = [
       </div>
     ),
   },
+  // other attorneys...
   {
-    id: 2,
     name: "Paul Darakjian",
     slug: "attorney-2",
+    metaTitle:
+      "Paul Darakjian | Experienced Appellate Attorney | Lucianna Law Firm",
+    metaDescription:
+      "Meet Paul Darakjian, an experienced appellate attorney at Lucianna Law Firm. With a focus on criminal defense and family law...",
+    metaKeywords:
+      "Paul Darakjian attorney, appellate attorney, Lucianna Law Firm, criminal defense lawyer, family law attorney",
     imgPath: "/attorney-member2.jpg",
     number: "201-947-6484",
     email: "Nlucianna@msn.com",
-    title: "Paul Darakjian",
-    description:
-      "Learn more about Nancy E. Lucianna, a seasoned criminal and civil rights attorney in New Jersey with over 38 years of experience.",
-    keywords: [
-      "Paul Darakjian",
-      "New Jersey criminal lawyer",
-      "civil rights attorney",
-      "Fort Lee attorney",
-      "Bergen County lawyer",
-      "NJ trial lawyer",
-      "personal injury attorney",
-    ],
     mainContent: (
       <span>
         Mr. Darakjian joined the Law Office of NANCY E. LUCIANNA, P.C. in 2016
         with his primary focus on research & writing all major aspects of the
         growing practice. Mr. Darakjian is an experienced appellate advocate and
-        a member of the Begen County Bar Association. Before joining the firm,
+        a member of the Bergen County Bar Association. Before joining the firm,
         Mr. Darakjian clerked in the Bergen County Superior Court, Criminal part
         by the Honorary Patrick J. Roma. Mr. Darakjian is a graduate of Brooklyn
         Law and Bucknell University undergraduate.
@@ -336,3 +323,4 @@ export const attorneyData = [
     ),
   },
 ];
+``
