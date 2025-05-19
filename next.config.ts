@@ -90,6 +90,18 @@ const nextConfig: NextConfig = {
         destination: "/blog/immigration-trap",
         permanent: true,
       },
+      {
+        source:
+          "/nancy-e-lucianna.html",
+        destination: "/attorneys/attorney-1",
+        permanent: true,
+      },
+      {
+        source:
+          "/paul-darakjian.html",
+        destination: "/attorneys/attorney-2",
+        permanent: true,
+      },
     ];
   },
 };

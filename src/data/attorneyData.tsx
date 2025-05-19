@@ -3,10 +3,12 @@ export const attorneyData = [
   {
     name: "Nancy E. Lucianna",
     slug: "attorney-1",
-    metaTitle: "Nancy E. Lucianna - Experienced Attorney",
+    metaTitle:
+      "Nancy E. Lucianna: Experienced Criminal Defense and Personal Injury Attorney",
     metaDescription:
-      "Meet Nancy E. Lucianna, dedicated attorney at Lucianna Law Firm specializing in criminal defense, personal injury...",
-    metaKeywords: "lawyer, criminal defense, personal injury",
+      "Meet Nancy E. Lucianna, a dedicated attorney at Lucianna Law Firm specializing in criminal defense, personal injury, workplace injury, workers’ compensation, and police misconduct cases. Serving clients in New Jersey, New York, and the United States Virgin Islands.",
+    metaKeywords:
+      "Nancy E. Lucianna, criminal defense attorney, personal injury lawyer, workplace injury attorney, workers’ compensation, police misconduct attorney, legal services New Jersey, New York attorney, Virgin Islands lawyer, trial lawyer, defense counsel",
     imgPath: "/attorney-member1.jpg",
     number: "201-947-6488", // ✅ Add this (example)
     email: "nancy@luciannalaw.com", // ✅ Add this (example)
@@ -199,9 +201,9 @@ export const attorneyData = [
     metaTitle:
       "Paul Darakjian | Experienced Appellate Attorney | Lucianna Law Firm",
     metaDescription:
-      "Meet Paul Darakjian, an experienced appellate attorney at Lucianna Law Firm. With a focus on criminal defense and family law...",
+      "Meet Paul Darakjian, an experienced appellate attorney at Lucianna Law Firm. With a focus on criminal defense and family law, Paul brings extensive legal research and writing skills honed through his tenure at Bergen County Superior Court. Contact Paul for expert legal counsel in New Jersey and New York.",
     metaKeywords:
-      "Paul Darakjian attorney, appellate attorney, Lucianna Law Firm, criminal defense lawyer, family law attorney",
+      "Paul Darakjian attorney, appellate attorney, Lucianna Law Firm, criminal defense lawyer, family law attorney, Bergen County Bar Association member, New Jersey legal counsel, New York lawyer, appellate law, legal research, law clerk, Brooklyn Law School graduate, Bucknell University magna cum laude, legal writing, appellate advocacy",
     imgPath: "/attorney-member2.jpg",
     number: "201-947-6484",
     email: "Nlucianna@msn.com",

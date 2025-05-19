@@ -51,8 +51,8 @@ export default async function Layout({ children, params }: LayoutProps) {
     "@type": "Person",
     name: attorney.name,
     jobTitle: "Attorney at Law",
-    image: `https://your-domain.com${attorney.imgPath}`, // Replace with your actual domain
-    url: `https://your-domain.com/attorneys/${attorney.slug}`,
+    image: `https://luciannalaw.com/${attorney.imgPath}`, // Replace with your actual domain
+    url: `https://luciannalaw.com/attorneys/${attorney.slug}`,
     sameAs: [
       "https://x.com/luciannalaw",
       "https://www.facebook.com/luciannalaw",
