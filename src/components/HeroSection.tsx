@@ -12,13 +12,13 @@ const HeroSection = () => {
       <div className="container mx-auto flex flex-col lg:flex-row justify-center items-center py-10 xl:py-0">
         {/* Left Side: Text Content */}
         <div className="flex flex-col items-center lg:items-start text-center w-full lg:w-1/2 px-4 xl:pl-24">
-          {/* <p className="text-center lg:text-left text-lg lg:text-2xl mb-4 lg:mb-10 uppercase tracking-widest">
+          <p className="hidden lg:block text-center lg:text-left text-lg lg:text-2xl mb-4 lg:mb-10 uppercase tracking-widest">
             <span className="text-lg lg:text-2xl uppercase">
               LAW OFFICES OF NANCY E. LUCIANNA
             </span>
             <br />
             <span className="text-mainBrown">Call us at</span> (201)-947-6484
-          </p> */}
+          </p>
           <h1
             className="text-center lg:text-start text-4xl lg:text-6xl font-bold mb-4 lg:mb-10 leading-[2.3]"
             style={{ lineHeight: "1.2" }}

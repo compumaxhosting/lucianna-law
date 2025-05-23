@@ -4,6 +4,8 @@ import React, { useState, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import TestimonialIconSVG from "./TestimonialIconSVG";
 import Image from "next/image";
+import { Star } from "lucide-react";
+
 
 type Testimonial = {
   id: number;
@@ -41,8 +43,45 @@ const TestimonialsCarousel = () => {
   const scrollPrev = () => emblaApi?.scrollPrev();
   const scrollNext = () => emblaApi?.scrollNext();
 
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const autoplayInterval = 4000; // 4 seconds
+    const interval = setInterval(() => {
+      emblaApi.scrollNext();
+    }, autoplayInterval);
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, [emblaApi]);
+  
+
   return (
     <div className="relative container mx-auto">
+      {/* Google Reviews Section */}
+      <div className="text-center mb-8">
+        <div className="flex justify-center gap-1 my-1">
+          {Array(5)
+            .fill(0)
+            .map((_, i) => (
+              <Star
+                key={i}
+                size={20}
+                className="text-yellow-400 fill-yellow-400"
+              />
+            ))}
+        </div>
+        <p className="text-sm text-gray-300">(Google Reviews)</p>
+        <a
+          href="https://www.google.com/search?q=LUCIANNA+Law+Fort+Lee+NJ+reviews"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-2 px-4 py-2 bg-lightBlue text-white rounded-full hover:bg-[#0a2e4f] transition-colors text-sm font-semibold"
+        >
+          Review us on Google
+        </a>
+      </div>
+
+      {/* Carousel */}
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex w-full">
           {testimonials.map((testimonial) => (
@@ -50,14 +89,27 @@ const TestimonialsCarousel = () => {
               key={testimonial.id}
               className="flex px-2 min-w-[100%] sm:min-w-[33.33333%]"
             >
-              <div className="bg-[#122542] shadow-md rounded-2xl p-6 text-white flex flex-col gap-4">
-                <div className="flex items-center gap-2">
-                  <TestimonialIconSVG />
-                  <h3 className="text-lg font-semibold text-mainBrown">
-                    {testimonial.title}
-                  </h3>
+              <div className="bg-transparent shadow-md rounded-2xl p-6 text-white flex flex-col gap-4 w-[450px] max-w-full border border-gray-200">
+                <div className="flex flex-col gap-1">
+                  <div className="flex items-center gap-2">
+                    <TestimonialIconSVG />
+                    <h3 className="text-lg font-semibold text-mainBrown">
+                      {testimonial.title}
+                    </h3>
+                  </div>
+                  <div className="flex gap-1">
+                    {Array(5)
+                      .fill(0)
+                      .map((_, i) => (
+                        <Star
+                          key={i}
+                          size={16}
+                          className="text-yellow-400 fill-yellow-400"
+                        />
+                      ))}
+                  </div>
                 </div>
-                <p className="text-sm italic text-gray-300 flex-1">
+                <p className="text-sm italic text-white flex-1">
                   {testimonial.comment}
                 </p>
                 <div className="border-b border-gray-600 my-2"></div>
@@ -95,7 +147,6 @@ const TestimonialsCarousel = () => {
             backgroundPosition: "center",
           }}
         >
-          {/* Empty span to maintain button size if needed */}
           <span className="sr-only">Previous</span>
         </button>
 

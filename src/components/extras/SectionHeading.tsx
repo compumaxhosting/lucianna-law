@@ -7,7 +7,7 @@ interface SectionHeadingProps {
 
 const SectionHeading: React.FC<SectionHeadingProps> = ({ children }) => {
   return (
-    <div className="bg-mainBlue container mx-auto flex flex-col justify-center items-center gap-2 md:gap-4 px-4 md:px-10 lg:px-24 text-center">
+    <div className="container mx-auto flex flex-col justify-center items-center gap-2 md:gap-4 px-4 md:px-10 lg:px-24 text-center">
       <h2 className="text-white text-3xl md:4xl lg:text-5xl section-heading">
         {children}
       </h2>{" "}
